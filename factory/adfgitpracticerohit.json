@@ -1,0 +1,16 @@
+{
+	"name": "adfgitpracticerohit",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5624bd4-1548-4e57-a918-80b80b18a60b",
+		"tenantId": "da121781-72b5-4895-8425-f188eb1a6bb4"
+	}
+}
