@@ -1,0 +1,24 @@
+{
+	"name": "Git_source_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Git_source_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "BigMart Sales (1).csv",
+				"folderPath": "csv_files",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
